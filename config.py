@@ -10,26 +10,26 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5718843227:AAGaVjSBFObDNmp7rZyJPLyK7CkUcLug0uE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5694218326:AAFNvyHAbPHlPOhcpRmmYjlwf_ll4nd6O2U")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "17982711"))
+APP_ID = int(os.environ.get("APP_ID", "9840531"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "5bc8205cd80917813898fe67cd9e8cef")
+API_HASH = os.environ.get("API_HASH", "2ac10377616df23907e134df14bdf08b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001869826387"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001702690506"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1441197417"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5499068185"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://manju:1234@cluster0.s6qpf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot5")
+DB_NAME = os.environ.get("DATABASE_NAME", "runatestbot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -66,7 +66,7 @@ USER_REPLY_TEXT = ""
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
 
-LOG_FILE_NAME = "filesharingbot.txt"
+LOG_FILE_NAME = "runatestbot.txt"
 
 logging.basicConfig(
     level=logging.INFO,
