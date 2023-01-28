@@ -1,6 +1,7 @@
 # --- For-Bot-Working --------- #
 pyrogram
 TgCrypto
+setuptools
 Pyromod
 # --- For-Database ------------ #
 pymongo
