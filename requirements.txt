@@ -7,4 +7,4 @@ pymongo
 dnspython
 # --- For-Web-Response ------- #
 aiohttp
-sqlite3
+sqlite3=3.40.1
